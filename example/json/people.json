@@ -1,0 +1,173 @@
+[
+  {
+    "id": 0,
+    "gender": "male",
+    "email": "williamsherman@opticom.com",
+    "age": 27,
+    "eyeColor": "brown",
+    "name": "Jewell Craft",
+    "company": "OMATOM"
+  },
+  {
+    "id": 1,
+    "gender": "female",
+    "email": "jewellcraft@omatom.com",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Georgia Griffin",
+    "company": "MOBILDATA"
+  },
+  {
+    "id": 2,
+    "gender": "female",
+    "email": "georgiagriffin@mobildata.com",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": "Maggie Simmons",
+    "company": "OTHERSIDE"
+  },
+  {
+    "id": 3,
+    "gender": "female",
+    "email": "maggiesimmons@otherside.com",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Rebekah Macias",
+    "company": "OHMNET"
+  },
+  {
+    "id": 4,
+    "gender": "female",
+    "email": "rebekahmacias@ohmnet.com",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": "Campbell Oneil",
+    "company": "SKYPLEX"
+  },
+  {
+    "id": 5,
+    "gender": "male",
+    "email": "campbelloneil@skyplex.com",
+    "age": 37,
+    "eyeColor": "brown",
+    "name": "Mccormick Moore",
+    "company": "BIOTICA"
+  },
+  {
+    "id": 6,
+    "gender": "male",
+    "email": "mccormickmoore@biotica.com",
+    "age": 24,
+    "eyeColor": "green",
+    "name": "Ilene Gray",
+    "company": "GLUKGLUK"
+  },
+  {
+    "id": 7,
+    "gender": "female",
+    "email": "ilenegray@glukgluk.com",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": "Schroeder Carlson",
+    "company": "ZAGGLE"
+  },
+  {
+    "id": 8,
+    "gender": "male",
+    "email": "schroedercarlson@zaggle.com",
+    "age": 39,
+    "eyeColor": "blue",
+    "name": "Crystal Raymond",
+    "company": "ZILLIDIUM"
+  },
+  {
+    "id": 9,
+    "gender": "female",
+    "email": "crystalraymond@zillidium.com",
+    "age": 23,
+    "eyeColor": "blue",
+    "name": "Ward Davis",
+    "company": "UTARA"
+  },
+  {
+    "id": 10,
+    "gender": "male",
+    "email": "warddavis@utara.com",
+    "age": 38,
+    "eyeColor": "brown",
+    "name": "Marla Middleton",
+    "company": "DATACATOR"
+  },
+  {
+    "id": 11,
+    "gender": "female",
+    "email": "marlamiddleton@datacator.com",
+    "age": 38,
+    "eyeColor": "green",
+    "name": "Sharp Delgado",
+    "company": "BULLZONE"
+  },
+  {
+    "id": 12,
+    "gender": "male",
+    "email": "sharpdelgado@bullzone.com",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Jane Crosby",
+    "company": "SPRINGBEE"
+  },
+  {
+    "id": 13,
+    "gender": "female",
+    "email": "janecrosby@springbee.com",
+    "age": 25,
+    "eyeColor": "blue",
+    "name": "Mckinney Mckenzie",
+    "company": "PORTALIS"
+  },
+  {
+    "id": 14,
+    "gender": "male",
+    "email": "mckinneymckenzie@portalis.com",
+    "age": 24,
+    "eyeColor": "brown",
+    "name": "Shana Hutchinson",
+    "company": "VICON"
+  },
+  {
+    "id": 15,
+    "gender": "female",
+    "email": "shanahutchinson@vicon.com",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "Le Strong",
+    "company": "PROTODYNE"
+  },
+  {
+    "id": 16,
+    "gender": "male",
+    "email": "lestrong@protodyne.com",
+    "age": 22,
+    "eyeColor": "brown",
+    "name": "Lucia Best",
+    "company": "SECURIA"
+  },
+  {
+    "id": 17,
+    "gender": "female",
+    "email": "luciabest@securia.com",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "Lila Weaver",
+    "company": "PAPRIKUT"
+  },
+  {
+    "id": 18,
+    "gender": "female",
+    "email": "lilaweaver@paprikut.com",
+    "age": 38,
+    "eyeColor": "brown",
+    "name": "Mcgowan Whitley",
+    "company": "RODEOLOGY"
+  }
+]
