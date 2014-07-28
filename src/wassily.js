@@ -25,19 +25,26 @@ Wassily.BAR_CHART=2;
 function draw(someData, groupField ,idTable, idSVG){
 
   var a = 1;
+  //var chartType = Wassily.PIE_CHART;
+  var chartType = Wassily.BAR_CHART;
 
   nv.addGraph(function() {
     var width = 350,
         height = 350;
 
-    //someData = proxyData(someData);    
+    someData = proxyData(someData);    
+ 
     var groupData  = GroupBy(someData, groupField);
 
-    
-    var chart = createChart(Wassily.BAR_CHART);
+    var chart = createChart(chartType);
   
+    //solo para los graficos de barra
+    if(chartType == Wassily.BAR_CHART){
+      groupData =  [{values: groupData}];
+    }
+
     d3.select("#"+idSVG)
-        .datum(someData)
+        .datum(groupData)
         .transition().duration(1200)
         .attr('width', width)
         .attr('height', height)

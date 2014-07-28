@@ -1,7 +1,4 @@
-[ 
-    {
-      key: "Cumulative Return",
-      values: [
+[
         { 
           "label" : "A Label" ,
           "value" : -29.765957771107
@@ -34,6 +31,5 @@
           "label" : "H Label" , 
           "value" : -5.1387322875705
         }
-      ]
-    }
-  ]
+]
+   
