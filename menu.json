@@ -1,0 +1,12 @@
+[
+  {
+    "menu":"examples",
+    "title": "People",
+    "url": "<a href='example'>people</a>"
+  },
+  {
+    "menu":"misc",
+    "title": "source",
+    "url": "<a href='source'>source<a>"
+  }
+]

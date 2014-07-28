@@ -1,0 +1,27 @@
+<style type="text/css">
+body {
+  display: flex;
+  overflow-y:scroll;
+}
+
+text {
+  font: 12px sans-serif;
+}
+
+.mypiechart {
+
+  border: 2px;
+  margin-right: 30px;
+  width: auto;
+  height: auto;
+}
+
+h3{
+background-color: #9aae04;
+text-align: center;
+color: white;
+margin: 0px;
+	
+}
+
+</style>

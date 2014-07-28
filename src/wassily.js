@@ -6,7 +6,7 @@
 */
 
 
-/*  
+/*  INFO: http://nvd3.org/examples/
     TODO: Que el svg se pueda guardar como png o copiar al portapapeles
     TODO: Que quede fijo el paginado de las tablas
   	TODO: Definir la licencia
@@ -16,27 +16,28 @@
   Recive a json in each element contais a pair id, val
   and group by distincts val
 */
+
+function Wassily(){}
+Wassily.PIE_CHART=1;
+Wassily.BAR_CHART=2;
+
+
 function draw(someData, groupField ,idTable, idSVG){
+
+  var a = 1;
 
   nv.addGraph(function() {
     var width = 350,
         height = 350;
 
-    someData = proxyData(someData);    
+    //someData = proxyData(someData);    
     var groupData  = GroupBy(someData, groupField);
 
-    var chart = nv.models.pieChart()
-        .x(function(d) { return d.group })
-        .y(function(d) { return d.value })
-        .color(d3.scale.category10().range())
-        .width(width)
-        .height(height)
-        .showLabels(true)    //Display pie labels
-        .labelType("percent")
-        .showLegend(true);
-
+    
+    var chart = createChart(Wassily.BAR_CHART);
+  
     d3.select("#"+idSVG)
-        .datum(groupData)
+        .datum(someData)
         .transition().duration(1200)
         .attr('width', width)
         .attr('height', height)
@@ -93,6 +94,42 @@ function draw(someData, groupField ,idTable, idSVG){
 });
 
 }
+
+
+function createChart(chartType){
+
+  var chart;
+
+  switch(chartType){
+    case Wassily.PIE_CHART:
+      chart = nv.models.pieChart()
+      .color(d3.scale.category10().range())
+      .showLabels(true)
+      .labelType("percent")
+      .showLegend(true)
+      .width(350)
+      .height(350);
+    break;
+    case Wassily.BAR_CHART:
+      chart = nv.models.discreteBarChart()
+        .staggerLabels(true)
+        .tooltips(false)
+        .showValues(true)
+        .transitionDuration(350);
+    break;
+  }
+ 
+  chart.x(function(d) { return d.group })
+  .y(function(d) { return d.value });
+  
+
+  return chart;
+
+}
+
+
+
+
 
 function recoverRecords(someData, value){
 

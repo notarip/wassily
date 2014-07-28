@@ -94,12 +94,13 @@
 
  //Call to vasili draw function
  
-  var json_url = "json/people.json";
+  var json_url = "json/bar.json";
   
   $.getJSON( json_url, function( data ) {
     draw(data, "gender", "table_a" ,"chart_a");
   });
 
+/*
   $.getJSON( json_url, function( data ) {
     draw(data, "eyeColor", "table_b" ,"chart_b");
   });
@@ -108,5 +109,6 @@
   $.getJSON( json_url, function( data ) {
     draw(data, "fake", "table_c" ,"chart_c");
   });
+*/
   
 </script>
