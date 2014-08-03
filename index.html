@@ -53,7 +53,14 @@
   //var json_url = "example/json/people.json";
 
   $.getJSON(json_url, function( data ) {
-    draw(data, "menu", "table_a" ,"chart_a");
+
+    wassily.draw({data: data, 
+                      groupField: "menu", 
+                      idTable: "table_a" , 
+                      idSVG: "chart_a",
+                      chartType:wassily.BAR_CHART
+                    });
+
   });
   
 </script>

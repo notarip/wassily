@@ -92,23 +92,28 @@
   
 <script>
 
- //Call to vasili draw function
+ //Call to wassily draw method
  
   var json_url = "json/people.json";
   
   $.getJSON( json_url, function( data ) {
-    draw(data, "gender", "table_a" ,"chart_a");
+    wassily.draw({data: data, 
+                  groupField: "eyeColor", 
+                  idTable: "table_a" , 
+                  idSVG: "chart_a",
+                  chartType:wassily.BAR_CHART
+                });
   });
 
 /*
   $.getJSON( json_url, function( data ) {
-    draw(data, "eyeColor", "table_b" ,"chart_b");
+    draw(data, "eyeColor", "table_b" ,"chart_b",Wassily.BAR_CHART);
   });
 
 
   $.getJSON( json_url, function( data ) {
     draw(data, "fake", "table_c" ,"chart_c");
   });
-*/
-  
+
+  */
 </script>

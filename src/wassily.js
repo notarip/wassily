@@ -17,29 +17,32 @@
   and group by distincts val
 */
 
-function Wassily(){}
-Wassily.PIE_CHART=1;
-Wassily.BAR_CHART=2;
+var wassily = function(){
 
 
-function draw(someData, groupField ,idTable, idSVG){
+var wassily = {version:"1.0.0", PIE_CHART:1,
+BAR_CHART:2};
 
-  var a = 1;
-  //var chartType = Wassily.PIE_CHART;
-  var chartType = Wassily.BAR_CHART;
+wassily.draw = function(options){
+
+ var someData = options.data || "";
+ var groupField = options.groupField || "";
+ var idTable = options.idTable || "";
+ var idSVG = options.idSVG || "";
+ var chartType = options.chartType || wassily.PIE_CHART;
+ var width = options.width || 350;
+ var height = options.height || 350;
 
   nv.addGraph(function() {
-    var width = 350,
-        height = 350;
-
+    
     someData = proxyData(someData);    
  
     var groupData  = GroupBy(someData, groupField);
 
-    var chart = createChart(chartType);
+    var chart = createChart(chartType,width,height);
   
     //solo para los graficos de barra
-    if(chartType == Wassily.BAR_CHART){
+    if(chartType == wassily.BAR_CHART){
       groupData =  [{values: groupData}];
     }
 
@@ -100,24 +103,22 @@ function draw(someData, groupField ,idTable, idSVG){
 
 });
 
-}
+};//end draw
 
 
-function createChart(chartType){
+function createChart(chartType, width, height){
 
   var chart;
 
   switch(chartType){
-    case Wassily.PIE_CHART:
+    case wassily.PIE_CHART:
       chart = nv.models.pieChart()
       .color(d3.scale.category10().range())
       .showLabels(true)
       .labelType("percent")
-      .showLegend(true)
-      .width(350)
-      .height(350);
+      .showLegend(true);
     break;
-    case Wassily.BAR_CHART:
+    case wassily.BAR_CHART:
       chart = nv.models.discreteBarChart()
         .staggerLabels(true)
         .tooltips(false)
@@ -127,15 +128,12 @@ function createChart(chartType){
   }
  
   chart.x(function(d) { return d.group })
-  .y(function(d) { return d.value });
+  .y(function(d) { return d.value }).width(width).height(height);
   
 
   return chart;
 
 }
-
-
-
 
 
 function recoverRecords(someData, value){
@@ -306,5 +304,5 @@ function extractFields(obj){
 
   return fields;
 }
-
-
+  return wassily;
+}();
