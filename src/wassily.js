@@ -7,6 +7,8 @@
 
 
 /*  INFO: http://nvd3.org/examples/
+    FIXME: Por que se mambea cuando muevo mucho los filtros
+    FIXME: Por que se queda con el grafico aun que no haya nada en la tabla
     TODO: Que el svg se pueda guardar como png o copiar al portapapeles
     TODO: Que quede fijo el paginado de las tablas
   	TODO: Definir la licencia
@@ -79,15 +81,18 @@ wassily.draw = function(options){
     };
 
 
-    //trigger cuando se filtra por el grafico
-    chart.dispatch.on('stateChange', function(e) { 
-      stampGraphStatus(someData, d3.select("#"+idSVG).datum(),groupField);
-      dynatable.settings.dataset.originalRecords = someData;
-      dynatable.queries.add('table',true);
-      dynatable.queries.add('graph',true);
-      dynatable.process();
-        
-    });
+     if(chartType == wassily.PIE_CHART){
+
+      //trigger cuando se filtra por el grafico
+      chart.dispatch.on('stateChange', function(e) { 
+        stampGraphStatus(someData, d3.select("#"+idSVG).datum(),groupField);
+        dynatable.settings.dataset.originalRecords = someData;
+        dynatable.queries.add('table',true);
+        dynatable.queries.add('graph',true);
+        dynatable.process();
+          
+      });
+    }
 
 
     //Trigger cuando se filtra por la tabla
@@ -97,6 +102,9 @@ wassily.draw = function(options){
       dynatable.process();
       stampTableStatus(someData, idTable);
       var group =  GroupBy(recoverRecords(someData, true), groupField);
+      if(chartType == wassily.BAR_CHART){
+        group =  [{values: group}];
+      }
       d3.select("#"+idSVG).datum(group).call(chart);
       
     });
