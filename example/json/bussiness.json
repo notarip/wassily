@@ -1,0 +1,710 @@
+[
+  {
+    "sectorCode": 216,
+    "profit": "-$2,086.0200",
+    "depertment": "Technology",
+    "obs": "Lorem excepteur sint in aute"
+  },
+  {
+    "sectorCode": 264,
+    "profit": "-$3,559.4400",
+    "depertment": "Technology",
+    "obs": "eu nisi ad sit qui"
+  },
+  {
+    "sectorCode": 269,
+    "profit": "-$82.2200",
+    "depertment": "Marketing",
+    "obs": "reprehenderit enim irure consectetur reprehenderit"
+  },
+  {
+    "sectorCode": 171,
+    "profit": "-$533.8700",
+    "depertment": "Technology",
+    "obs": "ullamco qui ex est fugiat"
+  },
+  {
+    "sectorCode": 200,
+    "profit": "$7,935.4100",
+    "depertment": "Technology",
+    "obs": "cupidatat occaecat esse ullamco magna"
+  },
+  {
+    "sectorCode": 101,
+    "profit": "-$7,271.2800",
+    "depertment": "Comercial",
+    "obs": "sit laboris ullamco officia veniam"
+  },
+  {
+    "sectorCode": 296,
+    "profit": "-$8,113.5100",
+    "depertment": "Technology",
+    "obs": "non esse ullamco cillum tempor"
+  },
+  {
+    "sectorCode": 223,
+    "profit": "$3,918.7600",
+    "depertment": "Comercial",
+    "obs": "est anim quis cillum quis"
+  },
+  {
+    "sectorCode": 132,
+    "profit": "$6,769.7100",
+    "depertment": "Marketing",
+    "obs": "fugiat ad irure pariatur magna"
+  },
+  {
+    "sectorCode": 258,
+    "profit": "$310.4600",
+    "depertment": "Marketing",
+    "obs": "laboris id proident exercitation ut"
+  },
+  {
+    "sectorCode": 259,
+    "profit": "$7,671.7500",
+    "depertment": "Comercial",
+    "obs": "excepteur excepteur incididunt aliquip do"
+  },
+  {
+    "sectorCode": 128,
+    "profit": "-$1,001.7500",
+    "depertment": "Finance",
+    "obs": "ad et nostrud minim excepteur"
+  },
+  {
+    "sectorCode": 154,
+    "profit": "$4,721.2800",
+    "depertment": "Comercial",
+    "obs": "et tempor velit eiusmod minim"
+  },
+  {
+    "sectorCode": 147,
+    "profit": "$7,523.3700",
+    "depertment": "Finance",
+    "obs": "id fugiat esse excepteur enim"
+  },
+  {
+    "sectorCode": 252,
+    "profit": "$6,892.7300",
+    "depertment": "Finance",
+    "obs": "consequat proident est deserunt sit"
+  },
+  {
+    "sectorCode": 170,
+    "profit": "-$547.1100",
+    "depertment": "Technology",
+    "obs": "in est dolore mollit occaecat"
+  },
+  {
+    "sectorCode": 104,
+    "profit": "$3,880.0200",
+    "depertment": "Marketing",
+    "obs": "enim commodo proident nulla laborum"
+  },
+  {
+    "sectorCode": 104,
+    "profit": "-$8,675.7400",
+    "depertment": "Comercial",
+    "obs": "velit irure dolor nulla amet"
+  },
+  {
+    "sectorCode": 269,
+    "profit": "$9,226.9000",
+    "depertment": "Technology",
+    "obs": "sunt ex fugiat non nisi"
+  },
+  {
+    "sectorCode": 134,
+    "profit": "-$9,038.6600",
+    "depertment": "Marketing",
+    "obs": "reprehenderit sint duis mollit pariatur"
+  },
+  {
+    "sectorCode": 197,
+    "profit": "-$2,772.2100",
+    "depertment": "Comercial",
+    "obs": "et elit laborum laboris id"
+  },
+  {
+    "sectorCode": 109,
+    "profit": "$6,693.3900",
+    "depertment": "Technology",
+    "obs": "nulla aliquip aute exercitation minim"
+  },
+  {
+    "sectorCode": 279,
+    "profit": "-$3,159.4500",
+    "depertment": "Finance",
+    "obs": "et cillum deserunt ex et"
+  },
+  {
+    "sectorCode": 214,
+    "profit": "$5,548.9700",
+    "depertment": "Finance",
+    "obs": "eiusmod sit non do consectetur"
+  },
+  {
+    "sectorCode": 160,
+    "profit": "$2,860.4600",
+    "depertment": "Comercial",
+    "obs": "enim irure cillum proident amet"
+  },
+  {
+    "sectorCode": 124,
+    "profit": "$88.0800",
+    "depertment": "Comercial",
+    "obs": "veniam irure laboris commodo sunt"
+  },
+  {
+    "sectorCode": 215,
+    "profit": "-$4,359.3800",
+    "depertment": "Technology",
+    "obs": "nisi velit eiusmod laboris laboris"
+  },
+  {
+    "sectorCode": 271,
+    "profit": "$1,968.7100",
+    "depertment": "Marketing",
+    "obs": "quis ipsum aliquip do laboris"
+  },
+  {
+    "sectorCode": 256,
+    "profit": "-$1,434.8900",
+    "depertment": "Technology",
+    "obs": "quis occaecat consectetur est incididunt"
+  },
+  {
+    "sectorCode": 249,
+    "profit": "-$8,948.1300",
+    "depertment": "Finance",
+    "obs": "sunt ea voluptate mollit reprehenderit"
+  },
+  {
+    "sectorCode": 143,
+    "profit": "$8,200.5100",
+    "depertment": "Comercial",
+    "obs": "cillum elit cupidatat sit incididunt"
+  },
+  {
+    "sectorCode": 166,
+    "profit": "-$9,781.9800",
+    "depertment": "Finance",
+    "obs": "officia cupidatat amet adipisicing nulla"
+  },
+  {
+    "sectorCode": 196,
+    "profit": "$7,418.3300",
+    "depertment": "Marketing",
+    "obs": "sit eu laborum cillum eiusmod"
+  },
+  {
+    "sectorCode": 299,
+    "profit": "$5,794.9800",
+    "depertment": "Finance",
+    "obs": "ex quis cupidatat ea incididunt"
+  },
+  {
+    "sectorCode": 118,
+    "profit": "-$1,216.7900",
+    "depertment": "Technology",
+    "obs": "aute nisi non tempor quis"
+  },
+  {
+    "sectorCode": 223,
+    "profit": "-$7,406.4600",
+    "depertment": "Technology",
+    "obs": "ut culpa do excepteur adipisicing"
+  },
+  {
+    "sectorCode": 210,
+    "profit": "-$330.2500",
+    "depertment": "Technology",
+    "obs": "aute culpa proident laboris ad"
+  },
+  {
+    "sectorCode": 298,
+    "profit": "-$2,093.4300",
+    "depertment": "Finance",
+    "obs": "proident tempor laborum aliquip occaecat"
+  },
+  {
+    "sectorCode": 242,
+    "profit": "-$9,937.5300",
+    "depertment": "Finance",
+    "obs": "ad dolor occaecat sunt aliqua"
+  },
+  {
+    "sectorCode": 269,
+    "profit": "$6,594.2200",
+    "depertment": "Marketing",
+    "obs": "deserunt ex excepteur pariatur sunt"
+  },
+  {
+    "sectorCode": 219,
+    "profit": "$1,175.9100",
+    "depertment": "Comercial",
+    "obs": "ex occaecat culpa velit enim"
+  },
+  {
+    "sectorCode": 174,
+    "profit": "$7,983.3400",
+    "depertment": "Marketing",
+    "obs": "sit id eu aliquip occaecat"
+  },
+  {
+    "sectorCode": 262,
+    "profit": "$2,187.2600",
+    "depertment": "Finance",
+    "obs": "id velit quis sint eiusmod"
+  },
+  {
+    "sectorCode": 236,
+    "profit": "$3,980.0100",
+    "depertment": "Comercial",
+    "obs": "ullamco dolor consectetur sit qui"
+  },
+  {
+    "sectorCode": 211,
+    "profit": "-$3,533.5900",
+    "depertment": "Finance",
+    "obs": "incididunt cupidatat dolor culpa exercitation"
+  },
+  {
+    "sectorCode": 182,
+    "profit": "$784.4000",
+    "depertment": "Finance",
+    "obs": "ea deserunt exercitation aliquip deserunt"
+  },
+  {
+    "sectorCode": 106,
+    "profit": "$8,470.1500",
+    "depertment": "Comercial",
+    "obs": "amet tempor veniam mollit est"
+  },
+  {
+    "sectorCode": 149,
+    "profit": "$5,274.9500",
+    "depertment": "Comercial",
+    "obs": "quis magna in ullamco id"
+  },
+  {
+    "sectorCode": 124,
+    "profit": "$9,532.2500",
+    "depertment": "Technology",
+    "obs": "elit pariatur nulla ea labore"
+  },
+  {
+    "sectorCode": 294,
+    "profit": "-$6,897.8500",
+    "depertment": "Technology",
+    "obs": "velit duis ullamco anim minim"
+  },
+  {
+    "sectorCode": 255,
+    "profit": "-$443.8900",
+    "depertment": "Finance",
+    "obs": "proident ullamco duis ad tempor"
+  },
+  {
+    "sectorCode": 183,
+    "profit": "$3,121.4500",
+    "depertment": "Marketing",
+    "obs": "enim occaecat exercitation magna Lorem"
+  },
+  {
+    "sectorCode": 162,
+    "profit": "$1,906.3700",
+    "depertment": "Finance",
+    "obs": "ullamco sunt occaecat consectetur sit"
+  },
+  {
+    "sectorCode": 162,
+    "profit": "$463.7000",
+    "depertment": "Finance",
+    "obs": "dolore pariatur veniam enim adipisicing"
+  },
+  {
+    "sectorCode": 123,
+    "profit": "-$8,784.2300",
+    "depertment": "Technology",
+    "obs": "ad incididunt ex incididunt ex"
+  },
+  {
+    "sectorCode": 124,
+    "profit": "-$6,883.2800",
+    "depertment": "Marketing",
+    "obs": "enim velit voluptate id aute"
+  },
+  {
+    "sectorCode": 203,
+    "profit": "$44.5500",
+    "depertment": "Finance",
+    "obs": "in minim amet aute qui"
+  },
+  {
+    "sectorCode": 168,
+    "profit": "$2,867.9500",
+    "depertment": "Technology",
+    "obs": "elit ipsum non pariatur cillum"
+  },
+  {
+    "sectorCode": 173,
+    "profit": "-$7,424.5300",
+    "depertment": "Finance",
+    "obs": "proident cillum ex dolore cupidatat"
+  },
+  {
+    "sectorCode": 193,
+    "profit": "$2,147.1500",
+    "depertment": "Finance",
+    "obs": "adipisicing nulla consequat excepteur incididunt"
+  },
+  {
+    "sectorCode": 175,
+    "profit": "$9,346.9400",
+    "depertment": "Marketing",
+    "obs": "aliqua ut commodo proident irure"
+  },
+  {
+    "sectorCode": 111,
+    "profit": "-$2,790.7300",
+    "depertment": "Technology",
+    "obs": "ipsum amet Lorem amet tempor"
+  },
+  {
+    "sectorCode": 148,
+    "profit": "$5,795.9300",
+    "depertment": "Comercial",
+    "obs": "excepteur ut ad pariatur minim"
+  },
+  {
+    "sectorCode": 168,
+    "profit": "$5,066.7300",
+    "depertment": "Technology",
+    "obs": "Lorem incididunt irure labore ullamco"
+  },
+  {
+    "sectorCode": 245,
+    "profit": "-$7,681.6400",
+    "depertment": "Finance",
+    "obs": "minim veniam ipsum esse magna"
+  },
+  {
+    "sectorCode": 238,
+    "profit": "-$624.3800",
+    "depertment": "Finance",
+    "obs": "sunt in consequat duis magna"
+  },
+  {
+    "sectorCode": 272,
+    "profit": "$3,477.3100",
+    "depertment": "Technology",
+    "obs": "anim dolore enim nulla magna"
+  },
+  {
+    "sectorCode": 200,
+    "profit": "$6,107.8800",
+    "depertment": "Finance",
+    "obs": "elit occaecat sint cupidatat cupidatat"
+  },
+  {
+    "sectorCode": 250,
+    "profit": "-$9,637.2900",
+    "depertment": "Marketing",
+    "obs": "veniam eiusmod amet nulla sunt"
+  },
+  {
+    "sectorCode": 293,
+    "profit": "$3,393.7800",
+    "depertment": "Marketing",
+    "obs": "in magna in sint nulla"
+  },
+  {
+    "sectorCode": 295,
+    "profit": "$2,379.2100",
+    "depertment": "Marketing",
+    "obs": "occaecat nisi dolore minim id"
+  },
+  {
+    "sectorCode": 135,
+    "profit": "-$6,788.0200",
+    "depertment": "Technology",
+    "obs": "sunt deserunt tempor elit cupidatat"
+  },
+  {
+    "sectorCode": 258,
+    "profit": "$4,628.7400",
+    "depertment": "Technology",
+    "obs": "laboris velit reprehenderit id non"
+  },
+  {
+    "sectorCode": 272,
+    "profit": "-$7,553.0000",
+    "depertment": "Comercial",
+    "obs": "exercitation commodo culpa commodo laboris"
+  },
+  {
+    "sectorCode": 137,
+    "profit": "$2,606.1100",
+    "depertment": "Marketing",
+    "obs": "anim amet aliqua adipisicing nisi"
+  },
+  {
+    "sectorCode": 156,
+    "profit": "$6,224.1100",
+    "depertment": "Finance",
+    "obs": "elit voluptate fugiat nostrud labore"
+  },
+  {
+    "sectorCode": 110,
+    "profit": "$8,896.7800",
+    "depertment": "Comercial",
+    "obs": "elit aute ullamco adipisicing nulla"
+  },
+  {
+    "sectorCode": 144,
+    "profit": "-$4,549.5700",
+    "depertment": "Technology",
+    "obs": "eiusmod eiusmod fugiat nostrud velit"
+  },
+  {
+    "sectorCode": 296,
+    "profit": "-$9,236.1000",
+    "depertment": "Finance",
+    "obs": "magna do exercitation fugiat anim"
+  },
+  {
+    "sectorCode": 243,
+    "profit": "$2,009.4100",
+    "depertment": "Marketing",
+    "obs": "est mollit Lorem commodo est"
+  },
+  {
+    "sectorCode": 120,
+    "profit": "-$3,578.1800",
+    "depertment": "Marketing",
+    "obs": "anim id proident et amet"
+  },
+  {
+    "sectorCode": 257,
+    "profit": "$3,228.9900",
+    "depertment": "Technology",
+    "obs": "aliqua nostrud voluptate esse ex"
+  },
+  {
+    "sectorCode": 238,
+    "profit": "-$3,383.7700",
+    "depertment": "Finance",
+    "obs": "deserunt tempor elit ipsum ea"
+  },
+  {
+    "sectorCode": 167,
+    "profit": "$8,560.5000",
+    "depertment": "Comercial",
+    "obs": "esse cupidatat cillum minim adipisicing"
+  },
+  {
+    "sectorCode": 186,
+    "profit": "$8,485.7900",
+    "depertment": "Technology",
+    "obs": "enim occaecat elit id commodo"
+  },
+  {
+    "sectorCode": 139,
+    "profit": "$1,305.4400",
+    "depertment": "Finance",
+    "obs": "non dolor mollit commodo ipsum"
+  },
+  {
+    "sectorCode": 290,
+    "profit": "-$6,707.6600",
+    "depertment": "Finance",
+    "obs": "ut duis fugiat exercitation ipsum"
+  },
+  {
+    "sectorCode": 186,
+    "profit": "$9,452.0300",
+    "depertment": "Marketing",
+    "obs": "occaecat id magna Lorem proident"
+  },
+  {
+    "sectorCode": 135,
+    "profit": "$1,503.1700",
+    "depertment": "Comercial",
+    "obs": "magna id cupidatat magna deserunt"
+  },
+  {
+    "sectorCode": 182,
+    "profit": "-$7,912.9900",
+    "depertment": "Technology",
+    "obs": "nisi excepteur reprehenderit ad cupidatat"
+  },
+  {
+    "sectorCode": 104,
+    "profit": "-$9,545.1900",
+    "depertment": "Marketing",
+    "obs": "aute deserunt labore ipsum reprehenderit"
+  },
+  {
+    "sectorCode": 146,
+    "profit": "-$6,397.9000",
+    "depertment": "Finance",
+    "obs": "pariatur nisi enim consequat voluptate"
+  },
+  {
+    "sectorCode": 293,
+    "profit": "-$8,397.0200",
+    "depertment": "Technology",
+    "obs": "ea excepteur nisi ea velit"
+  },
+  {
+    "sectorCode": 233,
+    "profit": "-$5,457.2400",
+    "depertment": "Marketing",
+    "obs": "quis incididunt et consequat est"
+  },
+  {
+    "sectorCode": 210,
+    "profit": "$3,740.5900",
+    "depertment": "Finance",
+    "obs": "ipsum ipsum exercitation tempor magna"
+  },
+  {
+    "sectorCode": 122,
+    "profit": "$5,731.4700",
+    "depertment": "Comercial",
+    "obs": "consequat duis nostrud ullamco dolore"
+  },
+  {
+    "sectorCode": 285,
+    "profit": "$705.4700",
+    "depertment": "Finance",
+    "obs": "irure qui nulla excepteur officia"
+  },
+  {
+    "sectorCode": 199,
+    "profit": "-$3,298.9400",
+    "depertment": "Technology",
+    "obs": "est consequat nisi qui in"
+  },
+  {
+    "sectorCode": 153,
+    "profit": "$6,619.2400",
+    "depertment": "Comercial",
+    "obs": "cillum excepteur officia irure ad"
+  },
+  {
+    "sectorCode": 248,
+    "profit": "$3,860.0300",
+    "depertment": "Marketing",
+    "obs": "consequat exercitation ut voluptate occaecat"
+  },
+  {
+    "sectorCode": 101,
+    "profit": "-$6,974.9300",
+    "depertment": "Technology",
+    "obs": "consectetur eu laboris amet elit"
+  },
+  {
+    "sectorCode": 282,
+    "profit": "$4,947.2500",
+    "depertment": "Comercial",
+    "obs": "anim non esse ex duis"
+  },
+  {
+    "sectorCode": 249,
+    "profit": "$11.2200",
+    "depertment": "Technology",
+    "obs": "enim elit nulla mollit exercitation"
+  },
+  {
+    "sectorCode": 201,
+    "profit": "$4,484.7200",
+    "depertment": "Comercial",
+    "obs": "irure dolor pariatur laboris officia"
+  },
+  {
+    "sectorCode": 178,
+    "profit": "-$4,415.5200",
+    "depertment": "Marketing",
+    "obs": "pariatur consectetur anim pariatur anim"
+  },
+  {
+    "sectorCode": 230,
+    "profit": "-$2,932.3100",
+    "depertment": "Marketing",
+    "obs": "nulla eu ea culpa adipisicing"
+  },
+  {
+    "sectorCode": 240,
+    "profit": "-$3,362.8200",
+    "depertment": "Finance",
+    "obs": "consectetur eiusmod eu minim aute"
+  },
+  {
+    "sectorCode": 278,
+    "profit": "-$7,053.6900",
+    "depertment": "Finance",
+    "obs": "ullamco quis incididunt occaecat qui"
+  },
+  {
+    "sectorCode": 215,
+    "profit": "-$3,975.5800",
+    "depertment": "Finance",
+    "obs": "esse Lorem mollit cillum ut"
+  },
+  {
+    "sectorCode": 212,
+    "profit": "$9,509.1800",
+    "depertment": "Technology",
+    "obs": "enim adipisicing officia do ea"
+  },
+  {
+    "sectorCode": 178,
+    "profit": "$9,887.6600",
+    "depertment": "Finance",
+    "obs": "nulla culpa voluptate aliquip velit"
+  },
+  {
+    "sectorCode": 161,
+    "profit": "-$4,929.3000",
+    "depertment": "Technology",
+    "obs": "ad deserunt ea mollit enim"
+  },
+  {
+    "sectorCode": 127,
+    "profit": "$9,268.7500",
+    "depertment": "Technology",
+    "obs": "do adipisicing id ad irure"
+  },
+  {
+    "sectorCode": 181,
+    "profit": "$6,444.1600",
+    "depertment": "Marketing",
+    "obs": "excepteur et sit occaecat non"
+  },
+  {
+    "sectorCode": 224,
+    "profit": "$8,341.1400",
+    "depertment": "Marketing",
+    "obs": "laboris sint reprehenderit labore quis"
+  },
+  {
+    "sectorCode": 155,
+    "profit": "$7,833.6900",
+    "depertment": "Technology",
+    "obs": "consectetur reprehenderit commodo irure culpa"
+  },
+  {
+    "sectorCode": 150,
+    "profit": "$9,497.0500",
+    "depertment": "Marketing",
+    "obs": "ipsum commodo est tempor laboris"
+  },
+  {
+    "sectorCode": 240,
+    "profit": "-$5,613.7200",
+    "depertment": "Marketing",
+    "obs": "in mollit aliquip nisi laboris"
+  }
+]

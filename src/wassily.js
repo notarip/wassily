@@ -9,6 +9,7 @@
 /*  INFO: http://nvd3.org/examples/
     FIXME: Por que se mambea cuando muevo mucho los filtros
     FIXME: Por que se queda con el grafico aun que no haya nada en la tabla
+    TODO: Opcion de elegir indicador, osea que no solo haga un count 
     TODO: Que el svg se pueda guardar como png o copiar al portapapeles
     TODO: Que quede fijo el paginado de las tablas
   	TODO: Definir la licencia

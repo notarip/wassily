@@ -2,7 +2,12 @@
   {
     "menu":"examples",
     "title": "People",
-    "url": "<a href='example'>people</a>"
+    "url": "<a href='example/people.html'>People</a>"
+  },
+  {
+    "menu":"examples",
+    "title": "Bussiness",
+    "url": "<a href='example/bussiness.html'>Bussiness</a>"
   },
   {
     "menu":"misc",

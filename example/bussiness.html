@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<link href="css/nv.d3.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.dynatable.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.dynatable.boot.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+
+<script src="../lib/d3.v3.js"></script>
+<script src="../lib/nv.d3.js"></script>
+<script src="../lib/legend.js"></script>
+<script src="../lib/pie.js"></script>
+<script src="../lib/pieChart.js"></script>
+<script src="../lib/utils.js"></script>
+<script src="../lib/jquery-1.7.2.min.js"></script>
+<script src="../lib/jquery.dynatable.js"></script>
+<script src="../src/wassily.js"></script>
+
+
+<!-- First Example-->
+
+<body class='with-3d-shadow with-transitions'>
+  <div style="text-align: -webkit-center;">
+  <table>
+    <tr>
+      <h3>Ejemplo</h3>
+    </tr>
+    <tr>
+      <td class="graphtable">
+        <svg id="chart_a" class="mypiechart"></svg>
+      </td>
+      <td class="graphtable">
+        <div style="margin: 0px;">
+          <table id="table_a">
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </div>
+
+</body>
+
+  
+<script>
+
+ //Call to wassily draw method
+ 
+  var json_url = "json/bussiness.json";
+  
+  $.getJSON( json_url, function( data ) {
+    wassily.draw({data: data, 
+                  groupField: "depertment", 
+                  idTable: "table_a" , 
+                  idSVG: "chart_a",
+                  chartType:wassily.BAR_CHART,
+                  width:400
+                });
+  });
+
+</script>

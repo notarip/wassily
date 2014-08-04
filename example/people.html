@@ -98,22 +98,32 @@
   
   $.getJSON( json_url, function( data ) {
     wassily.draw({data: data, 
-                  groupField: "eyeColor", 
+                  groupField: "gender", 
                   idTable: "table_a" , 
                   idSVG: "chart_a",
+                  chartType:wassily.PIE_CHART
+                });
+  });
+
+
+  $.getJSON( json_url, function( data ) {
+        wassily.draw({data: data, 
+                  groupField: "eyeColor", 
+                  idTable: "table_b" , 
+                  idSVG: "chart_b",
                   chartType:wassily.BAR_CHART
                 });
   });
 
-/*
+
   $.getJSON( json_url, function( data ) {
-    draw(data, "eyeColor", "table_b" ,"chart_b",Wassily.BAR_CHART);
+        wassily.draw({data: data, 
+                  groupField: "fake", 
+                  idTable: "table_c" , 
+                  idSVG: "chart_c",
+                  chartType:wassily.BAR_CHART
+                });
   });
 
 
-  $.getJSON( json_url, function( data ) {
-    draw(data, "fake", "table_c" ,"chart_c");
-  });
-
-  */
 </script>
